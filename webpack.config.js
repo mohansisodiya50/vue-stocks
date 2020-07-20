@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
 	publicPath: process.env.NODE_ENV === 'production'
-    ? '/my-project/'
+    ? '/vue-stocks/'
     : '/',
     filename: 'build.js'
   },
